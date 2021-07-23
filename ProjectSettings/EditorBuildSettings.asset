@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARCarGameElectronics.unity
     guid: 6d625aa0f8c4ee348a0d4c167a73413c
+  - enabled: 1
+    path: Assets/Scenes/BalloonShooterElectronics.unity
+    guid: 9c04dc0104a5f0f4bb243275ad4daa38
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
