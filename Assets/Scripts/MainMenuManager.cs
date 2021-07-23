@@ -56,7 +56,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void onClick_Game3()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(11);
     }
 
     public void onClick_Game4()
@@ -101,7 +101,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void onClick_Game11()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(3);
     }
 
     public void onClick_Game12()
