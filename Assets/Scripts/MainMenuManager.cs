@@ -46,12 +46,12 @@ public class MainMenuManager : MonoBehaviour
     /* CATEGORY 1 GAMES */
     public void onClick_Game1()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(9);
     }
 
     public void onClick_Game2()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(10);
     }
 
     public void onClick_Game3()
@@ -91,12 +91,12 @@ public class MainMenuManager : MonoBehaviour
     /* CATEGORY 3 GAMES */
     public void onClick_Game9()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(1);
     }
 
     public void onClick_Game10()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(2);
     }
 
     public void onClick_Game11()
