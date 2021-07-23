@@ -21,8 +21,7 @@ public class ImageRandomizer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Remove delta time from both active timers. This subtracts a small amount of time from the
-        // overall time we described in "timeBetweenChange" and "timeUntilStopping"
+        
         ImageChangeTimer -= Time.deltaTime;
         timeUntilStopping -= Time.deltaTime;
 
