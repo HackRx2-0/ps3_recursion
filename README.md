@@ -14,3 +14,7 @@
 # Car game to collect Rewards
 ### A AR car game in which you can drive the car and collect rewards which will appear randomly around you.
 ![](screenshot/Car_game_GIF.gif)
+
+# AR Fun balloon pop
+### In AR Fun balloon pop game ballons will appear randomly around us and we have to find the ballons in 3D spaceand pop them which will give rewards/offers based on the scores made from the balloons popped in 15-20sec.
+![](screenshot/Car_game_GIF.gif)
