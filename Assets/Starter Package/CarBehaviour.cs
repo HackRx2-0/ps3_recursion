@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-/**
- * Our car will track a reticle and collide with a <see cref="PackageBehaviour"/>.
- */
+
 public class CarBehaviour : MonoBehaviour
 {
     public ReticleBehaviour Reticle;

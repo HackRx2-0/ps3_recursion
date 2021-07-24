@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public GameObject categoryPanel;
+    public GameObject TierPanel,categoryPanel;
     public GameObject gamePanel1, gamePanel2, gamePanel3, gamePanel4;
 
     private void Start()
     {
-        categoryPanel.SetActive(true);
+        TierPanel.SetActive(true);
+        categoryPanel.SetActive(false);
         gamePanel1.SetActive(false);
         gamePanel2.SetActive(false);
         gamePanel3.SetActive(false);
@@ -18,6 +19,13 @@ public class MainMenuManager : MonoBehaviour
     }
 
     /* PANEL OPTIONS */
+    public void onClickTier()
+    {
+        TierPanel.SetActive(false);
+        categoryPanel.SetActive(true);
+    }
+
+
     public void onClick_Category1()
     {
         categoryPanel.SetActive(false);
